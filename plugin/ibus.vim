@@ -14,10 +14,10 @@ inoremap <silent> <Plug>IbusEnginePrev <C-R>=ibus#insert_select(-1)<CR>
 nnoremap <silent> <Plug>IbusEnginePrev :<C-U>call ibus#normal_select(-1)<CR>
 
 if !exists("g:ibus_no_mappings") || ! g:ibus_no_mappings
-  imap <C-B><C-B> <Plug>IbusToggle
-  nmap <C-B><C-B> <Plug>IbusToggle
-  imap <C-B><C-]> <Plug>IbusEngineNext
-  nmap <C-B><C-]> <Plug>IbusEngineNext
-  imap <C-B><C-[> <Plug>IbusEnginePrev
-  nmap <C-B><C-[> <Plug>IbusEnginePrev
+  imap <C-A-I><C-A-I> <Plug>IbusToggle
+  nmap <C-A-I><C-A-I> <Plug>IbusToggle
+  imap <C-A-I><C-A-P> <Plug>IbusEngineNext
+  nmap <C-A-I><C-A-P> <Plug>IbusEngineNext
+  imap <C-A-I><C-A-O> <Plug>IbusEnginePrev
+  nmap <C-A-I><C-A-O> <Plug>IbusEnginePrev
 endif

@@ -23,22 +23,22 @@ let g:ibus_no_mappings = 1
 Toggle ibus.vim on/off.
 
 ```vim
-imap <C-B><C-B> <Plug>IbusToggle
-nmap <C-B><C-B> <Plug>IbusToggle
+imap <C-A-I><C-A-I> <Plug>IbusToggle
+nmap <C-A-I><C-A-I> <Plug>IbusToggle
 ```
 
 Switch to next input engine.
 
 ```vim
-imap <C-B><C-]> <Plug>IbusEngineNext
-nmap <C-B><C-]> <Plug>IbusEngineNext
+imap <C-A-I><C-A-P> <Plug>IbusEngineNext
+nmap <C-A-I><C-A-P> <Plug>IbusEngineNext
 ```
 
 Switch to previous input engine.
 
 ```vim
-imap <C-B><C-[> <Plug>IbusEnginePrev
-nmap <C-B><C-[> <Plug>IbusEnginePrev
+imap <C-A-I><C-A-O> <Plug>IbusEnginePrev
+nmap <C-A-I><C-A-O> <Plug>IbusEnginePrev
 ```
 
 ## FAQ
